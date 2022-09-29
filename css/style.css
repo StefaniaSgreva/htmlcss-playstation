@@ -73,6 +73,19 @@ header{
 .hero-logo{
     width: 40%;
 }
+.hero-img{
+    cursor: pointer;
+    filter: blur(1px);
+   filter: saturate(50%);
+}
+.hero-img:hover,
+.hero-img:focus{
+  box-shadow: 0 0.5em 0.5em -0.4em var(--ps-bg-dark-blue);
+  transform: translateY(-0.25em);
+  filter: none;
+
+}
+
  /*************************************************
     MAIN
  *************************************************/
