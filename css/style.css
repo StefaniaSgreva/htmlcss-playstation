@@ -128,10 +128,59 @@ header{
 .ps-plus-img{
    width: 50%;
 }
+#playstationnow{
+    background-color: var(--ps-bg-dark-blue);
+}
+.box-container{
+    width: 60%;
+    margin: 0 auto;
+}
  /*************************************************
     FOOTER
  *************************************************/
-
+footer{
+    background-color: var(--ps-bg-light-blue);
+    padding: 25px 0;
+}
+footer ul{
+    padding: 0 40px;
+}
+footer ul li{
+    list-style: none;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 2rem;
+}
+.sie-logo{
+    width: 25%;
+}
+.ps-footer-logo{
+    height: 30%;
+}
+.globe{
+    height: 20px;
+}
+.txt-copyr{
+    font-size: 14px;
+    font-weight: 600;
+}
  /*************************************************
     RESIZES
  *************************************************/
+ @media screen and (max-width:576px){
+    #playstationplus img.ps-plus-img{
+        display: none;
+     }
+     #playstationplus{
+        padding: 10px 0;
+     }
+     #playstationnow img.ps-plus-img{
+        display: none;
+     }
+     #playstationnow{
+        padding: 10px 0;
+     }
+     .box-container{
+        width: 100%;
+    }
+ }
