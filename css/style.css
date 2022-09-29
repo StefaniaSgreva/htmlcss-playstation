@@ -23,6 +23,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+.debug{
+    border: 1px solid red;
+}
+.ps-btn{
+    border: none;
+    border-radius: 30px;
+    padding: 5px 10px;
+    font-weight: 600;
+    color: white;
+}
+.ps-btn-dark-gray{
+    background-color: var(--ps-btn-dark-gray);
+}
 /*************************************************
     HEADER (NAV + HERO)
  *************************************************/
@@ -37,6 +50,28 @@ header{
     width: 100%;
     height: 60px;
     z-index: 1000;
+}
+.lens{
+   height: 25px;
+   margin: auto 0;
+   padding-left: 20px;
+}
+#hero{
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 480px;
+    position: relative;
+}
+.inner-hero{
+    max-width: 400px;
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+}
+.hero-logo{
+    width: 40%;
 }
  /*************************************************
     MAIN
