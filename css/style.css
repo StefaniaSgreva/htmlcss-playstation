@@ -3,7 +3,7 @@
  *************************************************/
 :root{
    --ps-btn-dark-gray: #363636;
-   --ps-bg-dark-gray: #1F1F1F;
+   /* --ps-bg-dark-gray: #1F1F1F; */
    --ps-bg-light-gray: #BEBCBB;
    --ps-bg-dark-blue: #161C3B;
    --ps-bg-light-blue: #00439C;
@@ -11,16 +11,33 @@
 /* Bootstrap;
 .bg-body(white)
 .bg-white(white)
+.bg-black(black)
 .bg-dark (black)
 .bg-danger (red)
 .bg-primary (blue)
 
 .text-light (white)
 .text-primary (blue) */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 /*************************************************
     HEADER (NAV + HERO)
  *************************************************/
-
+.sony-logo{
+    width: 10%;
+    max-width: 100%;
+    padding: 10px;
+}
+header{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    z-index: 1000;
+}
  /*************************************************
     MAIN
  *************************************************/
