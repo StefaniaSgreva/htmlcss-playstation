@@ -118,6 +118,16 @@ header{
 .new-logo{
     width: 50%;
 }
+/* playstation plus */
+#playstationplus{
+    background-color: var(--ps-bg-light-gray);
+}
+.psfour-logo{
+    width: 60%;
+}
+.ps-plus-img{
+   width: 50%;
+}
  /*************************************************
     FOOTER
  *************************************************/
