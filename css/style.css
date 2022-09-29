@@ -86,22 +86,22 @@ header{
   box-shadow: 0 0.5em 0.5em -0.4em var(--ps-bg-dark-blue);
   transform: translateY(-0.25em);
   filter: none;
-
-}
-
- /*************************************************
-    MAIN
- *************************************************/
-.ps-accessories{
-    width: 50%;
-    max-width: 100%;
 }
 .ps-border{
     border-bottom: 2px solid var(--ps-bg-light-blue);
     padding-bottom: 25px;
 }
 
-#new{
+ /*************************************************
+    MAIN
+ *************************************************/
+ /* PS5  */
+.ps-accessories{
+    width: 50%;
+    max-width: 100%;
+}
+/* NEW  */
+.new-bg{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-position: center;
     background-repeat: no-repeat;
