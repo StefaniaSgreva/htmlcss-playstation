@@ -47,7 +47,7 @@ main h2{
     max-width: 100%;
     padding: 10px;
 }
-header{
+.steacky{
     position: sticky;
     top: 0;
     width: 100%;
@@ -64,7 +64,7 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 480px;
+    height: 675px;
     position: relative;
 }
 .inner-hero{
@@ -74,7 +74,7 @@ header{
     left: 40px;
 }
 .hero-logo{
-    width: 40%;
+    width: 50%;
 }
 .hero-img{
     cursor: pointer;
@@ -106,7 +106,7 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 550px;
+    height: 956px;
     position: relative;
 }
 .new-hero{
