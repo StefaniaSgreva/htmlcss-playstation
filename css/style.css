@@ -1,49 +1,49 @@
 /*************************************************
     GENERAL STYLES
  *************************************************/
-:root{
-   --ps-btn-dark-gray: #363636;
-   /* --ps-bg-dark-gray: #1F1F1F; */
-   --ps-bg-light-gray: #BEBCBB;
-   --ps-bg-dark-blue: #161C3B;
-   --ps-bg-light-blue: #00439C;
-}
-/* Bootstrap;
-.bg-body(white)
-.bg-white(white)
-.bg-black(black)
-.bg-dark (black)
-.bg-danger (red)
-.bg-primary (blue)
-
-.text-light (white)
-.text-primary (blue) */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-main h2{
-    font-size: 42px;
-}
-.debug{
-    border: 1px solid red;
-}
-.ps-btn{
-    border: none;
-    border-radius: 30px;
-    padding: 8px 10px;
-    font-weight: 600;
-    color: white;
-}
-.ps-btn-dark-gray{
-    background-color: var(--ps-btn-dark-gray);
-}
-/*************************************************
-    HEADER (NAV + HERO)
- *************************************************/
-.sony-logo{
-    width: 10%;
+ :root{
+    --ps-btn-dark-gray: #363636;
+    /* --ps-bg-dark-gray: #1F1F1F; */
+    --ps-bg-light-gray: #BEBCBB;
+    --ps-bg-dark-blue: #161C3B;
+    --ps-bg-light-blue: #00439C;
+ }
+ /* Bootstrap;
+ .bg-body(white)
+ .bg-white(white)
+ .bg-black(black)
+ .bg-dark (black)
+ .bg-danger (red)
+ .bg-primary (blue)
+ 
+ .text-light (white)
+ .text-primary (blue) */
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ main h2{
+     font-size: 42px;
+ }
+ .debug{
+     border: 1px solid red;
+ }
+ .ps-btn{
+     border: none;
+     border-radius: 30px;
+     padding: 8px 10px;
+     font-weight: 600;
+     color: white;
+ }
+ .ps-btn-dark-gray{
+     background-color: var(--ps-btn-dark-gray);
+ }
+ /*************************************************
+     HEADER (NAV + HERO)
+  *************************************************/
+  .sony-logo{
+    width: 8%;
     max-width: 100%;
     padding: 10px;
 }
@@ -51,7 +51,6 @@ main h2{
     position: sticky;
     top: 0;
     width: 100%;
-    height: 60px;
     z-index: 1000;
 }
 .lens{
@@ -70,11 +69,11 @@ main h2{
 .inner-hero{
     max-width: 400px;
     position: absolute;
-    bottom: 40px;
+    bottom: 60px;
     left: 40px;
 }
 .hero-logo{
-    width: 50%;
+    width: 60%;
 }
 .hero-img{
     cursor: pointer;
@@ -91,16 +90,11 @@ main h2{
   top: -10px;
   filter: none;
 }
-.ps-border{
-    border-bottom: 2px solid var(--ps-bg-light-blue);
-    padding-bottom: 25px;
-}
-
  /*************************************************
     MAIN
  *************************************************/
  /* PS5  */
-.ps-accessories{
+ .ps-accessories{
     width: 60%;
     max-width: 100%;
 }
@@ -116,19 +110,19 @@ main h2{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 956px;
+    height: 715px;
     position: relative;
 }
 .new-hero{
     max-width: 350px;
     position: absolute;
-    bottom: 40px;
+    bottom: 60px;
     left: 40px;
 }
 .new-logo{
-    width: 50%;
+    width: 70%;
 }
-/* playstation plus */
+/* PLAYSTATION PLUS  */
 #playstationplus{
     background-color: var(--ps-bg-light-gray);
 }
@@ -138,17 +132,19 @@ main h2{
 .ps-plus-img{
    width: 50%;
 }
+/* PLAYSTATION NOW */
 #playstationnow{
     background-color: var(--ps-bg-dark-blue);
 }
+/* SOCIAL */
 .box-container{
     width: 60%;
     margin: 0 auto;
 }
- /*************************************************
+/*************************************************
     FOOTER
  *************************************************/
-footer{
+ footer{
     background-color: var(--ps-bg-light-blue);
     padding: 25px 0;
 }
@@ -174,7 +170,7 @@ footer ul li{
     font-size: 14px;
     font-weight: 600;
 }
- /*************************************************
+/*************************************************
     RESIZES
  *************************************************/
  @media screen and (max-width:576px){

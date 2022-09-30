@@ -15,12 +15,13 @@
 </head>
 <body class="bg-body">
     <!-- HEADER  -->
-    <!-- Sony  -->
-    <div class="bg-black d-flex justify-content-end">
-        <img class="sony-logo" src="./img/sony_logo.svg" alt="Sony Logo">
-    </div>
-    <!-- navbar  -->
-    <div class="steacky">
+    <header>
+        <!-- Sony  -->
+        <div class="bg-black d-flex justify-content-end">
+            <img class="sony-logo" src="./img/sony_logo.svg" alt="Sony Logo">
+        </div>
+        <!-- navbar  -->
+        <div class="steacky">
         <!-- navbar  -->
         <nav class="navbar navbar-expand-lg navbar-light bg-white">
             <div class="container-fluid">
@@ -61,23 +62,23 @@
                       </ul>
                       <button class="ps-btn ps-btn-dark-gray text-light ms-2">Accedi</button>
                       <img class="lens" src="./img/lens.svg" alt="search button">
-                      
+
                 </div>
               </div>
             </div>
           </nav>
         </div>
-    <!-- hero  -->
-    <section id="hero" class="container-fluid text-light">
+        <!-- hero  -->
+        <section id="hero" class="text-light">
         <div class="inner-hero">
-            <img class="img-fluid hero-logo" src="./img/returnal-hero-banner-logo.png" alt="Returnal logo">
-            <h2 class="display-6 fw-semibold my-4">Rompi il cerchio</h2>
+            <img class="img-fluid hero-logo mb-4" src="./img/returnal-hero-banner-logo.png" alt="Returnal logo">
+            <h2 class="display-6 fw-semibold mb-4">Rompi il cerchio</h2>
             <p class="mb-4">Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascentifico, disponibile in esclusiva su PS5</p>
-            <button class="ps-btn bg-danger">Acquista ora</button>
+            <button class="ps-btn bg-danger mt-2">Acquista ora</button>
         </div>
-    </section>
-    <!-- hero's carousel -->
-    <div class="carousel-card m-4 pt-3">
+        </section>
+          <!-- hero's carousel -->
+        <div class="carousel-card my-4 p-3">
         <div class="row gy-4">
             <div class="col-6 col-md-4 col-lg-2">
                     <img class="hero-img img-fluid rounded-4" src="./img/returnal-listing-thumb-01-ps5.jpg" alt="cabin">
@@ -96,21 +97,22 @@
             </div>
             <div class="col-6 col-md-4 col-lg-2">
                 <img class="hero-img img-fluid rounded-4" src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt="cabin">
-            </div>           
+            </div>
         </div>
-    </div>
+        </div>
+    </header>
     <!-- MAIN (7 SECTION)  -->
     <main>
         <!-- PLATSTATION 5  -->
-        <section id="playstationfive" class="my-5">
-            <!-- top  -->
-            <div class="text-center pt-5">
+        <section id="playstationfive" class="mt-4 p-3">
+              <!-- top  -->
+              <div class="text-center pt-5">
                 <span class="text-uppercase text-primary fw-semibold">Play has no limits</span>
                 <h2>Ecco la PlayStation 5</h2>
                 <span class="fs-5 fw-semibold text-secondary d-block pt-3">Tuffati in nuove possibilit&agrave; di gioco completamente inaspettate</span>
             </div>
             <!-- center  -->
-            <div class="row justify-content-center align-items-center m-4">
+            <div class="row justify-content-center align-items-center p-4">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6">
                     <h2>Console PlayStation 5</h2>
                     <span class="fs-5 fw-semibold text-secondary d-block pt-3">Sperimenta la nuona generazione di incredibili giochi PlayStation.</span>
@@ -120,7 +122,8 @@
                     <img class="img-fluid"src="./img/playstation-5-thumb.png" alt="">
                 </div>
             </div>
-            <div class="row row-cols-5 justify-content-md-between text-center g-3 m-4">
+             <!-- bottom  -->
+             <div class="row row-cols-5 justify-content-md-between text-center g-3 p-4">
                 <div class="col-4 col-sm-4 col-md-2 col-lg-2 ps-border-active active">
                     <a href="#"><img class="ps-accessories" src="./img/playstation-5-thumb.png" alt="console"></a>
                     <span class="d-block fw-semibold pt-3 fs-5">Console PS5</span>
@@ -141,10 +144,11 @@
                     <a href="#"><img class="ps-accessories" src="./img/camera-thumb.jpg" alt="camera"></a>
                     <span class="d-block fw-semibold pt-3 fs-5">Telecamera HD</span>
                 </div>
-            </div>
+            </div> 
         </section>
         <!-- NEW  -->
-        <section id="new" class="container-fluid text-light">
+        <section id="new" class="text-light">
+            <!-- top - hero -->
             <div class="new-bg">
                 <div class="new-hero">
                     <img class="img-fluid new-logo" src="./img/it-takes-two-logo.png" alt="Returnal logo">
@@ -153,6 +157,7 @@
                     <button class="ps-btn bg-danger">Acquista ora</button>
                 </div>
             </div>
+            <!-- bottom - cards -->
             <div class="bg-dark p-5">
                 <h2 class="display-6 fw-semibold mb-3">Nuove uscite</h2>
                 <h4>Giochi incredibili per PS4 e PS5 disponibili ora</h4>
@@ -207,53 +212,57 @@
                     </div>
                 </div>
             </div>
-            
         </section>
         <!-- PLAYSTATION 4  -->
-        <section id="playstationfour">
-            <div class="text-center pt-5">
+        <section id="playstationfour" class="mt-5">
+            <!-- titlo + description  -->
+            <div class="text-center">
                 <h2>Esplora PlayStation 4</h2>
                 <span class="fs-5 fw-semibold text-secondary d-block pt-3">Giochi incredibili e intrattenimento senza fine.<br>Non c'&egrave; mai stato un momento migliore per giocare sulla tua PS4.</span>
             </div>
-            <diw class="row g-3 m-5">
-                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
-                    <img class="img-fluid" src="./img/ps4-slim-homepage-image-block.jpg" alt="PlayStation 4">
-                    <h2>PlayStation 4</h2>
-                    <span class="fs-5 fw-semibold text-secondary d-block pt-3">Giochi incredibili live su PS4, con 1 TB di spazio di archiviazione.</span>
-                    <button class="ps-btn bg-primary mt-3">Scopri di Pi&ugrave;</button>
+            <!-- products -->
+            <div class="container-fluid">
+                <div class="row gy-3 p-5">
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                        <img class="img-fluid" src="./img/ps4-slim-homepage-image-block.jpg" alt="PlayStation 4">
+                        <h2>PlayStation 4</h2>
+                        <span class="fs-5 fw-semibold text-secondary d-block pt-3">Giochi incredibili live su PS4, con 1 TB di spazio di archiviazione.</span>
+                        <button class="ps-btn bg-primary mt-3">Scopri di Pi&ugrave;</button>
+                    </div>  
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                        <img class="img-fluid" src="./img/double11-202010-tw-psvr.jpg" alt="PlayStation VR">
+                        <h2>PlayStation VR</h2>
+                        <span class="fs-5 fw-semibold text-secondary d-block pt-3">Oltre 500 titoli ed esperienze di gioco. Scoprili tutti.</span>
+                        <button class="ps-btn bg-primary mt-3">Scopri di Pi&ugrave;</button>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                        <img class="img-fluid" src="./img/dualshock-4-listing-thumb.jpg" alt="Accessori">
+                        <h2>Accessori</h2>
+                        <span class="fs-5 fw-semibold text-secondary d-block pt-3">Migliora la tua esperienza PS4 con una gamma di accessori ufficiali.</span>
+                        <button class="ps-btn bg-primary mt-3">Scopri di Pi&ugrave;</button>
+                    </div>  
                 </div>
-                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
-                    <img class="img-fluid" src="./img/double11-202010-tw-psvr.jpg" alt="PlayStation VR">
-                    <h2>PlayStation VR</h2>
-                    <span class="fs-5 fw-semibold text-secondary d-block pt-3">Oltre 500 titoli ed esperienze di gioco. Scoprili tutti.</span>
-                    <button class="ps-btn bg-primary mt-3">Scopri di Pi&ugrave;</button>
-                </div>
-                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
-                    <img class="img-fluid" src="./img/dualshock-4-listing-thumb.jpg" alt="Accessori">
-                    <h2>Accessori</h2>
-                    <span class="fs-5 fw-semibold text-secondary d-block pt-3">Migliora la tua esperienza PS4 con una gamma di accessori ufficiali.</span>
-                    <button class="ps-btn bg-primary mt-3">Scopri di Pi&ugrave;</button>
-                </div>
-            </diw>
+                
+            </div>
         </section>
-        <!-- PLAYSTATION PLUS  -->
+        <!-- PLAYSTATION PLUS -->
         <section id="playstationplus">
-            <div class="d-flex justify-content-between align-items-center m-5">
+            <div class="d-flex justify-content-between align-items-center pe-5 ps-5">
                 <div>
                     <img class="psfour-logo" src="./img/ps-plus-logo.png" alt="playstation plus logo">
                     <span class="d-block fw-semibold my-4">Migiora la tua esperienza PlayStation con l'accesso a multigiocatore online, giochi mensili, sconti esclusivi e altro ancora.</span>
                     <button class="ps-btn text-primary">Esplora PlayStation Plus</button>
                 </div>
-               <img class="ps-plus-img" src="./img/ps-plus-april-monthly-games-featured-image-block.png" alt="playstation plus games"> 
+               <img class="ps-plus-img" src="./img/ps-plus-april-monthly-games-featured-image-block.png" alt="playstation plus games">
             </div>
         </section>
         <!-- SALES -->
-        <section id="sales">
+        <section id="sales" class="container-fluid">
             <div class="text-center pt-5">
                 <h2>Nuovi sconti sul PlayStation Store</h2>
                 <span class="fs-5 fw-semibold text-secondary d-block pt-3">Sconti pazzeschi, collezioni curate e saldi stagionali su PS5, PS4 e PS VR, tutti in un unico posto.</span>
             </div>
-            <diw class="row g-3 m-5">
+            <diw class="row g-3 p-5">
                 <div class="col-12 col-sm-12 col-md-4 col-lg-4">
                     <img class="img-fluid" src="./img/playstation-store-games-under-20-spotlight.jpg" alt="giochi a meno">
                 </div>
@@ -267,17 +276,17 @@
         </section>
         <!-- PLAYSTATION NOW -->
         <section id="playstationnow">
-            <div class="d-flex justify-content-between align-items-center m-5">
+            <div class="d-flex justify-content-between align-items-center ps-5 pe-5">
                 <div>
                     <img class="psfour-logo" src="./img/ps-now-logo-two-column.png" alt="playstation plus logo">
                     <span class="d-block fw-semibold text-light my-4">Ottieni l'accesso immediato a una vastissima raccolta di oltre 800 giochi per PS4, PS3 e PS2 su PS4 o PC Windows, con nuovi titoli aggiunti ogni mese.</span>
                     <button class="ps-btn text-dark">Esplora PlayStation Plus</button>
                 </div>
-               <img class="ps-plus-img" src="./img/ps-now-april-featured-image-block.png" alt="playstation plus games"> 
+               <img class="ps-plus-img" src="./img/ps-now-april-featured-image-block.png" alt="playstation plus games">
             </div>
         </section>
         <!-- SOCIAL -->
-        <section id="social" class="m-5">
+        <section id="social" class="container-fluid my-5">
             <div class="box-container text-center">
                 <h3 class="mb-5">Seguici sui social media</h3>
                 <div class="row g-3 my-5">
@@ -299,8 +308,8 @@
     </main>
     <!-- FOOTER  -->
     <footer class="text-light">
-        <!-- TOP -->
-        <div class="d-flex justify-content-between p-5">
+       <!-- TOP -->
+       <div class="d-flex justify-content-between p-5">
             <div class="loghi">
                 <img class="ps-footer-logo mb-4" src="./img/ps-footer.svg" alt="playstation logo">
                 <div class="mt-4">
@@ -333,17 +342,14 @@
                     </ul>
                 </div>
             </div>
-        </div>
-        <!-- BOTTOM -->
-        <div class="footer-bottom row pb-5 ps-5 pe-5">
+       </div>
+       <!-- BOTTOM -->
+       <div class="container-fluid row pb-5 ps-5 pe-5">
             <div class="col-12 col-sm-12 col-md-12 col-lg-6">
                 <img class="sie-logo mb-2" src="./img/sie-logo.svg" alt="">
                 <p class="txt-copyr">Website ©2021 Soni Interactive Entertainment Europe Limited. Tutti i contenuti, nomi di giochi, nomi commerciali e/o di abbigliamento, marchi registrati, grafica e immagini associati sono marchi registrati e/o protetti da copyright dei rispettivi proprietari. Tutti i diritti riservati. <a class="text-light" href="#">Maggiori info</a></p>
             </div>
-            
         </div>
     </footer>
 </body>
 </html>
-
-
