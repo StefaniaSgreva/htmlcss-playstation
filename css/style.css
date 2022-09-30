@@ -79,12 +79,16 @@ main h2{
 .hero-img{
     cursor: pointer;
     filter: blur(1px);
-   filter: saturate(50%);
+    filter: saturate(50%);
+    position: relative;
+    top: 0;
+    transition: top ease 0.3s;
 }
 .hero-img:hover,
 .hero-img:focus{
   box-shadow: 0 0.5em 0.5em -0.4em var(--ps-bg-dark-blue);
-  transform: translateY(-0.25em);
+  /* transform: translateY(-0.25em); */
+  top: -10px;
   filter: none;
 }
 .ps-border{
