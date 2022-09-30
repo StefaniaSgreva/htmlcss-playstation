@@ -101,8 +101,14 @@ main h2{
  *************************************************/
  /* PS5  */
 .ps-accessories{
-    width: 50%;
+    width: 60%;
     max-width: 100%;
+}
+.ps-border-active{
+    border-bottom: 2px solid white;
+}
+.ps-border-active.active{
+    border-bottom: 2px solid var(--ps-bg-light-blue);
 }
 /* NEW  */
 .new-bg{
