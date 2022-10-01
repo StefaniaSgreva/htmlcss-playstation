@@ -30,20 +30,36 @@
      border: 1px solid red;
  }
  .ps-btn{
-     border: none;
+     border: 4px solid white; 
+     outline: 2px solid transparent;
      border-radius: 30px;
      padding: 8px 10px;
      font-weight: 600;
      color: white;
  }
+ .ps-btn:hover{
+    outline: 2px solid var(--ps-bg-light-blue);
+ }
  .ps-btn-dark-gray{
+    border-radius: 30px;
+     font-weight: 600;
+     color: white;
      background-color: var(--ps-btn-dark-gray);
      padding: 5px 10px;
  }
  .ps-btn-dark-gray:hover{
     background-color: var(--ps-bg-dark-blue);
 }
- 
+.btn-hero{
+    border-radius: 30px;
+    padding: 8px 10px;
+    font-weight: 600;
+    color: white;
+}
+.btn-hero:hover{
+    transform: scale(1.1);
+    transition: ease-in-out 500ms;
+}
  /*************************************************
      HEADER (NAV + HERO)
   *************************************************/
