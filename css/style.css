@@ -191,6 +191,7 @@ nav ul li:hover .megamenu{
 }
 
 /* NEW  */
+/* top - hero */
 .new-bg{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-position: center;
@@ -213,6 +214,18 @@ nav ul li:hover .megamenu{
 .product:hover{
     border-bottom: 2px solid var(--ps-bg-light-blue);
     opacity: 100%;
+}
+/* bottom - cards */
+.card-img{
+    cursor: pointer;
+    transition: ease 0.3s; 
+}
+.card-img:hover,
+.card-img:focus{
+  /* box-shadow: 0 0.5em 0.5em -0.4em var(--ps-bg-dark-blue); */
+  transform: scale(1.02);
+  /* top: -10px;
+  filter: none; */
 }
 /* PLAYSTATION PLUS  */
 #playstationplus{
@@ -246,13 +259,16 @@ footer ul li{
     font-weight: 600;
     line-height: 2rem;
 }
-footer ul li a{
+footer a{
    text-decoration: none;
    color: white;
 }
-footer ul li a:hover{
-    text-decoration: underline;
+footer a:hover{
     color: white;
+    opacity: 50%;
+ }
+ footer p a{
+    text-decoration: underline;
  }
 .sie-logo{
     width: 25%;
