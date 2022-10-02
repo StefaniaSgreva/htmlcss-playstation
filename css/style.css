@@ -224,8 +224,6 @@ nav ul li:hover .megamenu{
 .card-img:focus{
   /* box-shadow: 0 0.5em 0.5em -0.4em var(--ps-bg-dark-blue); */
   transform: scale(1.02);
-  /* top: -10px;
-  filter: none; */
 }
 /* PLAYSTATION PLUS  */
 #playstationplus{
@@ -240,6 +238,16 @@ nav ul li:hover .megamenu{
 /* PLAYSTATION NOW */
 #playstationnow{
     background-color: var(--ps-bg-dark-blue);
+}
+/* SALES */
+.card-img-sale{
+    cursor: pointer;
+    transition: ease 0.3s; 
+}
+.card-img-sale:hover,
+.card-img-sale:focus{
+  box-shadow: 0.5em 0.5em 0.5em -0.4em var(--ps-bg-dark-blue);
+  transform: scale(1.02);
 }
 /* SOCIAL */
 .box-container{
@@ -287,15 +295,21 @@ footer a:hover{
 /*************************************************
     RESIZES
  *************************************************/
- @media screen (max-width:768px){
+ /* MD */
+ @media screen and (max-width:768px){
     .hero-logo{
-        width: 100%;
+        width: 60%;
     }
- }
+    .sticky-nav nav ul.ps-mb-hide{
+        visibility: hidden;
+    } 
+}
+
+/* SM */
  @media screen and (max-width:576px){
-    .hero-logo{
-        width: 70%;
-    }
+    .sticky-nav nav ul img.chevron-down,img.chevron-down-blue{
+        visibility: hidden;
+    } 
     #playstationplus img.ps-plus-img{
         display: none;
      }
