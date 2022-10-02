@@ -66,8 +66,7 @@
   *************************************************/
   /* sony */
 .sony-logo{
-    width: 6%;
-    max-width: 100%;
+    width: 100px;
     padding: 10px;
 }
   /* navbar */
