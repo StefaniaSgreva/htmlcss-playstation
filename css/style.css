@@ -42,15 +42,16 @@
  }
  .ps-btn-dark-gray{
     border-radius: 30px;
-     font-weight: 600;
-     color: white;
-     background-color: var(--ps-btn-dark-gray);
-     padding: 5px 10px;
+    font-weight: 600;
+    color: white;
+    background-color: var(--ps-btn-dark-gray);
+    padding: 5px 10px;
  }
  .ps-btn-dark-gray:hover{
     background-color: var(--ps-bg-dark-blue);
 }
 .btn-hero{
+    border: none;
     border-radius: 30px;
     padding: 8px 10px;
     font-weight: 600;
@@ -150,6 +151,9 @@ nav ul li:hover .megamenu{
     vertical-align: middle;
     padding-right: 5px;
     }
+    /* .text-indent{
+        text-indent: 10px;
+    } */
 /* hero */
 #hero{
     background-image: url(../img/jumbo-bg.png);
@@ -185,12 +189,7 @@ nav ul li:hover .megamenu{
     width: 60%;
     max-width: 100%;
 }
-.ps-border-active{
-    border-bottom: 2px solid white;
-}
-.ps-border-active.active{
-    border-bottom: 2px solid var(--ps-bg-light-blue);
-}
+
 /* NEW  */
 .new-bg{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
@@ -199,9 +198,21 @@ nav ul li:hover .megamenu{
     background-size: cover;
     height: 650px;
 }
-
 .new-logo{
     width: 60%;
+}
+.product{
+    border-bottom: 2px solid transparent;
+    opacity: 50%;
+}
+.active{
+    border-bottom: 2px solid var(--ps-bg-light-blue);
+    opacity: 100%;
+
+}
+.product:hover{
+    border-bottom: 2px solid var(--ps-bg-light-blue);
+    opacity: 100%;
 }
 /* PLAYSTATION PLUS  */
 #playstationplus{
@@ -235,6 +246,14 @@ footer ul li{
     font-weight: 600;
     line-height: 2rem;
 }
+footer ul li a{
+   text-decoration: none;
+   color: white;
+}
+footer ul li a:hover{
+    text-decoration: underline;
+    color: white;
+ }
 .sie-logo{
     width: 25%;
 }
